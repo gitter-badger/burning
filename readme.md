@@ -4,14 +4,13 @@ burning
 [![Join the chat at https://gitter.im/burning/burning](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/burning/burning?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![image](https://travis-ci.org/burning/burning.svg)
 
-Drupal is a code name for the Drupal community in Israel. The project is fully
-decouple - Drupal serve as the backend while in the front is an Angular JS app.
+Burning is an open source backend drupal project for Buning man projects all
+around the world.
 
 How to start contribute?
 ----------
 
-You need [Drush](http://www.drush.org/en/master/), [npm](https://www.npmjs.com/),
-[grunt](http://gruntjs.com/), [bower](http://bower.io/).
+You need [Drush](http://www.drush.org/en/master/)
 
 Set up
 ----------
