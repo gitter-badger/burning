@@ -1,0 +1,1715 @@
+# $Id$
+#
+# Hebrew translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  burning_blog/burning_blog.features.field_instance.inc: n/a
+#  burning_events/burning_events.features.field_instance.inc: n/a
+#  burning_group/burning_group.features.field_instance.inc: n/a
+#  burning_questions/burning_questions.features.field_instance.inc: n/a
+#  burning_videos/burning_videos.features.field_instance.inc: n/a
+#  burning_wiki/burning_wiki.features.field_instance.inc: n/a
+#  burning_questions/plugins/restful/taxonomy_term/tags/1.0/tags__1_0.inc: n/a
+#  burning_blog/burning_blog.features.inc: n/a
+#  burning_core/plugins/content_types/more/more.inc: n/a
+#  burning_users/plugins/content_types/recent/recent.inc: n/a
+#  burning_events/burning_events.features.inc: n/a
+#  burning_events/plugins/content_types/quick_links/new-event.tpl.php: n/a
+#  burning_group/burning_group.features.inc: n/a
+#  burning_pages/burning_pages.views_default.inc: n/a
+#  burning_questions/burning_questions.features.inc: n/a
+#  burning_videos/burning_videos.features.inc: n/a
+#  burning_videos/plugins/content_types/playlists/playlists.inc: n/a
+#  burning_wiki/burning_wiki.features.inc: n/a
+#  burning_blog/burning_blog.views_default.inc: n/a
+#  burning_events/burning_events.views_default.inc: n/a
+#  burning_group/burning_group.views_default.inc: n/a
+#  burning_questions/burning_questions.views_default.inc: n/a
+#  burning_users/burning_users.views_default.inc: n/a
+#  burning_videos/burning_videos.views_default.inc: n/a
+#  burning_wiki/burning_wiki.views_default.inc: n/a
+#  burning_blog/burning_blog.info: n/a
+#  burning_core/burning_core.info: n/a
+#  burning_core/plugins/layouts/burning_9_3/burning_9_3.inc: n/a
+#  burning_core/plugins/layouts/burning_blog/burning_blog.inc: n/a
+#  burning_core/plugins/layouts/burning_calendar/burning_calendar.inc: n/a
+#  burning_core/plugins/layouts/burning_homepage/burning_homepage.inc: n/a
+#  burning_core/plugins/layouts/burning_user/burning_user.inc: n/a
+#  burning_core/plugins/layouts/burning_video/burning_video.inc: n/a
+#  burning_core/plugins/layouts/burning_wiki/burning_wiki.inc: n/a
+#  burning_core/plugins/styles/burning_region.inc: n/a
+#  burning_events/burning_events.info: n/a
+#  burning_group/burning_group.info: n/a
+#  burning_migrate/burning_migrate.info: n/a
+#  burning_notify/burning_notify.info: n/a
+#  burning_pages/burning_pages.info: n/a
+#  burning_permission/burning_permission.info: n/a
+#  burning_questions/burning_questions.info: n/a
+#  burning_reputation/burning_reputation.module: n/a
+#  burning_reputation/burning_reputation.info: n/a
+#  burning_responsive/burning_responsive.info: n/a
+#  burning_search/burning_search.info: n/a
+#  burning_videos/burning_videos.info: n/a
+#  burning_core/burning_core.views.inc: n/a
+#  burning_core/burning_core.module: n/a
+#  burning_questions/plugins/restful/node/question/1.0/question__1_0.inc: n/a
+#  burning_core/js/burning_core.js: n/a
+#  burning_core/plugins/content_types/node_metatags/node_metatags.inc: n/a
+#  burning_notify/burning_notify.features.field_instance.inc: n/a
+#  burning_users/burning_users.features.field_instance.inc: n/a
+#  burning_videos/plugins/content_types/video_metadata/video_metadata.inc: n/a
+#  burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc: n/a
+#  burning_wiki/plugins/content_types/links/links.inc: n/a
+#  burning_wiki/plugins/content_types/search_box/search_box.inc: n/a
+#  burning_wiki/plugins/content_types/wiki_description/wiki_description.inc: n/a
+#  burning_wiki/plugins/content_types/wikipedia_terms/wikipedia_terms.inc: n/a
+#  burning_core/plugins/widgets/burning_vud/burning_vud.inc: n/a
+#  burning_events/plugins/content_types/quick_links/quick_links.inc: n/a
+#  burning_events/plugins/content_types/upcoming_events/upcoming_events.inc: n/a
+#  burning_questions/js/inline_edit.js: n/a
+#  burning_questions/plugins/content_types/new_question/new-question.tpl.php: n/a
+#  burning_users/templates/about-modal.tpl.php: n/a
+#  burning_videos/plugins/content_types/manage_links/add-video.tpl.php: n/a
+#  burning_videos/plugins/content_types/playlists/playlist-form.tpl.php: n/a
+#  burning_events/plugins/content_types/quick_links/new_events.js: n/a
+#  burning_questions/plugins/content_types/new_question/new_question.js: n/a
+#  burning_events/plugins/content_types/upcoming_events/upcoming-events.tpl.php: n/a
+#  burning_events/plugins/restful/node/event/event__1_0.inc: n/a
+#  burning_videos/plugins/content_types/manage_links/manage_links.inc: n/a
+#  burning_migrate/includes/burning_migrate.migrate.entity.inc: n/a
+#  burning_migrate/includes/handlers/user/User.php: n/a
+#  burning_users/plugins/content_types/about/about.inc: n/a
+#  burning_users/plugins/content_types/user_picture/user_picture.inc: n/a
+#  burning_notify/burning_notify.module: n/a
+#  burning_pages/burning_pages.module: n/a
+#  burning_pages/plugins/content_types/drupal_of_the_month/drupal_of_the_month.inc: n/a
+#  burning_pages/plugins/content_types/get_involve/get_involve.inc: n/a
+#  burning_pages/plugins/content_types/popular_tags/popular_tags.inc: n/a
+#  burning_pages/plugins/content_types/service_provider/service_provider.inc: n/a
+#  burning_pages/plugins/content_types/service_provider_search/service_provider_search.inc: n/a
+#  burning_pages/plugins/content_types/drupal_of_the_month/drupal-of-the-month.tpl.php: n/a
+#  burning_pages/plugins/content_types/service_provider_search/assets/search_provider.js: n/a
+#  burning_questions/burning_questions.module: n/a
+#  burning_questions/plugins/content_types/new_question/new_question.inc: n/a
+#  burning_users/plugins/restful/user/update/update__1_0.inc: n/a
+#  burning_reputation/burning_reputation.features.field_instance.inc: n/a
+#  burning_social/burning_social.info: n/a
+#  burning_users/burning_users.views.inc: n/a
+#  burning_users/burning_users.module: n/a
+#  burning_users/burning_users.info: n/a
+#  burning_users/plugins/content_types/about/about.js: n/a
+#  burning_users/views/handlers/burning_users_profile_picture.inc: n/a
+#  burning_videos/plugins/validator/node/youtube/node__youtube.inc: n/a
+#  burning_videos/burning_videos.module: n/a
+#  burning_videos/plugins/content_types/playlist_videos/playlist_videos.inc: n/a
+#  burning_videos/plugins/content_types/playlist_views/playlist_views.inc: n/a
+#  burning_videos/plugins/restful/node/playlist/1.0/playlist__1_0.inc: n/a
+#  burning_videos/plugins/restful/node/youtube/1.0/youtube__1_0.inc: n/a
+#  burning_videos/plugins/content_types/playlists/playlists_manage.js: n/a
+#  burning_wiki/plugins/restful/node/wiki/1.0/wiki__1_0.inc: n/a
+#  burning_wiki/burning_wiki.module: n/a
+#  burning_wiki/burning_wiki.info: n/a
+#  burning_wiki/js/burning_wiki.js: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-11-16 21:40+0000\n"
+"PO-Revision-Date: 2014-11-16 21:40+0000\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Hebrew <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: burning_blog/burning_blog.features.field_instance.inc:223
+msgid "Blog rating"
+msgstr ""
+
+#: burning_blog/burning_blog.features.field_instance.inc:224 burning_events/burning_events.features.field_instance.inc:112 burning_group/burning_group.features.field_instance.inc:1515 burning_questions/burning_questions.features.field_instance.inc:206 burning_videos/burning_videos.features.field_instance.inc:363 burning_wiki/burning_wiki.features.field_instance.inc:96
+msgid "Body"
+msgstr "תוכן"
+
+#: burning_blog/burning_blog.features.field_instance.inc:225 burning_group/burning_group.features.field_instance.inc:1523
+msgid "Groups audience"
+msgstr ""
+
+#: burning_blog/burning_blog.features.field_instance.inc:226
+msgid "Images"
+msgstr ""
+
+#: burning_blog/burning_blog.features.field_instance.inc:227 burning_questions/burning_questions.features.field_instance.inc:208 burning_questions/plugins/restful/taxonomy_term/tags/1.0/tags__1_0.inc:4
+msgid "Tags"
+msgstr ""
+
+#: burning_blog/burning_blog.features.inc:66 burning_core/plugins/content_types/more/more.inc:34 burning_users/plugins/content_types/recent/recent.inc:52
+msgid "Blog"
+msgstr "בלוג"
+
+#: burning_blog/burning_blog.features.inc:68
+msgid "Blog conten type"
+msgstr ""
+
+#: burning_blog/burning_blog.features.inc:70 burning_events/burning_events.features.inc:36 burning_events/plugins/content_types/quick_links/new-event.tpl.php:17 burning_group/burning_group.features.inc:102;110;126 burning_pages/burning_pages.views_default.inc:467 burning_questions/burning_questions.features.inc:115 burning_videos/burning_videos.features.inc:39;47 burning_videos/plugins/content_types/playlists/playlists.inc:46 burning_wiki/burning_wiki.features.inc:36
+msgid "Title"
+msgstr "כותרת"
+
+#: burning_blog/burning_blog.views_default.inc:106;252 burning_events/burning_events.views_default.inc:134 burning_group/burning_group.views_default.inc:490 burning_pages/burning_pages.views_default.inc:72;167;325;451;599;717 burning_questions/burning_questions.views_default.inc:129 burning_users/burning_users.views_default.inc:106;226 burning_videos/burning_videos.views_default.inc:179 burning_wiki/burning_wiki.views_default.inc:102
+msgid "Master"
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:107;254 burning_events/burning_events.views_default.inc:135 burning_group/burning_group.views_default.inc:198;492 burning_pages/burning_pages.views_default.inc:73;168;327;452;600;718 burning_questions/burning_questions.views_default.inc:130 burning_users/burning_users.views_default.inc:107;227 burning_videos/burning_videos.views_default.inc:180 burning_wiki/burning_wiki.views_default.inc:104
+msgid "more"
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:108;255 burning_events/burning_events.views_default.inc:136 burning_group/burning_group.views_default.inc:199;493 burning_pages/burning_pages.views_default.inc:74;169;328;453;601;719 burning_questions/burning_questions.views_default.inc:131 burning_users/burning_users.views_default.inc:108;228 burning_videos/burning_videos.views_default.inc:181 burning_wiki/burning_wiki.views_default.inc:105
+msgid "Apply"
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:109;256 burning_events/burning_events.views_default.inc:137 burning_group/burning_group.views_default.inc:200;494 burning_pages/burning_pages.views_default.inc:75;170;329;454;602;720 burning_questions/burning_questions.views_default.inc:132 burning_users/burning_users.views_default.inc:109;229 burning_videos/burning_videos.views_default.inc:182 burning_wiki/burning_wiki.views_default.inc:106
+msgid "Reset"
+msgstr "איתחול"
+
+#: burning_blog/burning_blog.views_default.inc:110;257 burning_events/burning_events.views_default.inc:138 burning_group/burning_group.views_default.inc:201;495 burning_pages/burning_pages.views_default.inc:76;171;330;455;603;721 burning_questions/burning_questions.views_default.inc:133 burning_users/burning_users.views_default.inc:110;230 burning_videos/burning_videos.views_default.inc:183 burning_wiki/burning_wiki.views_default.inc:107
+msgid "Sort by"
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:111;258 burning_events/burning_events.views_default.inc:139 burning_group/burning_group.views_default.inc:202;496 burning_pages/burning_pages.views_default.inc:77;172;331;456;604;722 burning_questions/burning_questions.views_default.inc:134 burning_users/burning_users.views_default.inc:111;231 burning_videos/burning_videos.views_default.inc:184 burning_wiki/burning_wiki.views_default.inc:108
+msgid "Asc"
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:112;259 burning_events/burning_events.views_default.inc:140 burning_group/burning_group.views_default.inc:203;497 burning_pages/burning_pages.views_default.inc:78;173;332;457;605;723 burning_questions/burning_questions.views_default.inc:135 burning_users/burning_users.views_default.inc:112;232 burning_videos/burning_videos.views_default.inc:185 burning_wiki/burning_wiki.views_default.inc:109
+msgid "Desc"
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:113 burning_group/burning_group.views_default.inc:204;498 burning_pages/burning_pages.views_default.inc:79;174;333;458;606 burning_users/burning_users.views_default.inc:113;233 burning_videos/burning_videos.views_default.inc:186 burning_wiki/burning_wiki.views_default.inc:114
+msgid "Items per page"
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:114 burning_group/burning_group.views_default.inc:205;499 burning_pages/burning_pages.views_default.inc:80;175;334;459;607 burning_users/burning_users.views_default.inc:114;234 burning_videos/burning_videos.views_default.inc:187 burning_wiki/burning_wiki.views_default.inc:115
+msgid "- All -"
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:115 burning_group/burning_group.views_default.inc:206;500 burning_pages/burning_pages.views_default.inc:81;176;335;460;608 burning_users/burning_users.views_default.inc:115;235 burning_videos/burning_videos.views_default.inc:188 burning_wiki/burning_wiki.views_default.inc:116
+msgid "Offset"
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:116 burning_group/burning_group.views_default.inc:207;501 burning_pages/burning_pages.views_default.inc:82;177;336;461;609 burning_users/burning_users.views_default.inc:116;236 burning_videos/burning_videos.views_default.inc:189 burning_wiki/burning_wiki.views_default.inc:117
+msgid "« first"
+msgstr "« לעמוד הראשון"
+
+#: burning_blog/burning_blog.views_default.inc:117 burning_group/burning_group.views_default.inc:208;502 burning_pages/burning_pages.views_default.inc:83;178;337;462;610 burning_users/burning_users.views_default.inc:117;237 burning_videos/burning_videos.views_default.inc:190 burning_wiki/burning_wiki.views_default.inc:118
+msgid "‹ previous"
+msgstr "‹ לעמוד הקודם"
+
+#: burning_blog/burning_blog.views_default.inc:118 burning_group/burning_group.views_default.inc:209;503 burning_pages/burning_pages.views_default.inc:84;179;338;463;611 burning_users/burning_users.views_default.inc:118;238 burning_videos/burning_videos.views_default.inc:191 burning_wiki/burning_wiki.views_default.inc:119
+msgid "next ›"
+msgstr "לעמוד הבא ›"
+
+#: burning_blog/burning_blog.views_default.inc:119 burning_group/burning_group.views_default.inc:210;504 burning_pages/burning_pages.views_default.inc:85;180;339;464;612 burning_users/burning_users.views_default.inc:119;239 burning_videos/burning_videos.views_default.inc:192 burning_wiki/burning_wiki.views_default.inc:120
+msgid "last »"
+msgstr "לעמוד האחרון »"
+
+#: burning_blog/burning_blog.views_default.inc:120;260 burning_pages/burning_pages.views_default.inc:342;465;613 burning_users/burning_users.views_default.inc:240 burning_videos/burning_videos.views_default.inc:193
+msgid "author"
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:121;263 burning_pages/burning_pages.views_default.inc:614 burning_questions/burning_questions.views_default.inc:138 burning_users/burning_users.views_default.inc:241
+msgid "."
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:122;264 burning_pages/burning_pages.views_default.inc:615 burning_questions/burning_questions.views_default.inc:139 burning_users/burning_users.views_default.inc:242
+msgid ","
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:123;265 burning_group/burning_group.views_default.inc:214 burning_pages/burning_pages.views_default.inc:86;181;344;469;727 burning_questions/burning_questions.views_default.inc:140 burning_users/burning_users.views_default.inc:122;244 burning_wiki/burning_wiki.views_default.inc:112
+msgid "Content pane"
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:124;266 burning_group/burning_group.views_default.inc:215;508 burning_pages/burning_pages.views_default.inc:87;182;345;470;619;728 burning_questions/burning_questions.views_default.inc:141 burning_users/burning_users.views_default.inc:123;245 burning_videos/burning_videos.views_default.inc:197 burning_wiki/burning_wiki.views_default.inc:113
+msgid "View panes"
+msgstr ""
+
+#: burning_blog/burning_blog.views_default.inc:253
+msgid "Blog posts"
+msgstr "בלוגים"
+
+#: burning_blog/burning_blog.views_default.inc:261
+msgid "Keep reading"
+msgstr "המשך לקרוא"
+
+#: burning_blog/burning_blog.views_default.inc:262
+msgid "Comments: "
+msgstr ""
+
+#: burning_blog/burning_blog.info:0
+msgid "burning blog"
+msgstr ""
+
+#: burning_blog/burning_blog.info:0
+msgid "Blog for burning"
+msgstr ""
+
+#: burning_blog/burning_blog.info:0 burning_core/burning_core.info:0;0 burning_core/plugins/layouts/burning_9_3/burning_9_3.inc:9 burning_core/plugins/layouts/burning_blog/burning_blog.inc:9 burning_core/plugins/layouts/burning_calendar/burning_calendar.inc:9 burning_core/plugins/layouts/burning_homepage/burning_homepage.inc:9 burning_core/plugins/layouts/burning_user/burning_user.inc:9 burning_core/plugins/layouts/burning_video/burning_video.inc:9 burning_core/plugins/layouts/burning_wiki/burning_wiki.inc:9 burning_core/plugins/styles/burning_region.inc:10 burning_events/burning_events.info:0 burning_group/burning_group.info:0 burning_migrate/burning_migrate.info:0 burning_notify/burning_notify.info:0 burning_pages/burning_pages.info:0 burning_permission/burning_permission.info:0 burning_questions/burning_questions.info:0 burning_reputation/burning_reputation.module:14 burning_reputation/burning_reputation.info:0 burning_responsive/burning_responsive.info:0 burning_search/burning_search.info:0 burning_videos/burning_videos.info:0
+msgid "burning"
+msgstr ""
+
+#: burning_core/burning_core.views.inc:12
+msgid "Time name tags"
+msgstr ""
+
+#: burning_core/burning_core.views.inc:13
+msgid "Provide a unified strip of the publishing date, the author name and the tags."
+msgstr ""
+
+#: burning_core/burning_core.module:50
+msgid "Home"
+msgstr "דף הבית"
+
+#: burning_core/burning_core.module:53 burning_core/plugins/content_types/more/more.inc:33 burning_pages/burning_pages.views_default.inc:618
+msgid "Questions"
+msgstr ""
+
+#: burning_core/burning_core.module:56;76
+msgid "Blogs"
+msgstr "בלוגים"
+
+#: burning_core/burning_core.module:59;77 burning_core/plugins/layouts/burning_calendar/burning_calendar.inc:14
+msgid "Calendar"
+msgstr "לוח שנה"
+
+#: burning_core/burning_core.module:62;66;78
+msgid "Video library"
+msgstr "ספריית וידאו"
+
+#: burning_core/burning_core.module:63
+msgid "Manage play lists"
+msgstr "נהל רשימות השמעה"
+
+#: burning_core/burning_core.module:69;79;87
+msgid "Documentation"
+msgstr "דוקומנטציה"
+
+#: burning_core/burning_core.module:75 burning_questions/burning_questions.features.inc:111 burning_questions/plugins/restful/node/question/1.0/question__1_0.inc:4 burning_users/plugins/content_types/recent/recent.inc:52
+msgid "Question"
+msgstr "שאלה"
+
+#: burning_core/burning_core.module:100
+msgid "Managing burning"
+msgstr ""
+
+#: burning_core/burning_core.module:101
+msgid "Grant to the user the permission to manage burning settings."
+msgstr ""
+
+#: burning_core/burning_core.module:233
+msgid "Add comment:"
+msgstr "הוסף תגובה:"
+
+#: burning_core/burning_core.module:266
+msgid "Angular JS"
+msgstr ""
+
+#: burning_core/burning_core.module:16
+msgid "Manage settings"
+msgstr ""
+
+#: burning_core/burning_core.module:17 burning_reputation/burning_reputation.module:26
+msgid "Manage reputation settings"
+msgstr ""
+
+#: burning_core/burning_core.module:24
+msgid "Node autocomplete"
+msgstr ""
+
+#: burning_core/js/burning_core.js:0
+msgid "Wow! We can't submit the form due to some error:"
+msgstr ""
+"וואו! אי אפשר לשלוח את הטופס בגלל כמה "
+"בעיות:"
+
+#: burning_core/plugins/content_types/more/more.inc:4
+msgid "More plugin"
+msgstr ""
+
+#: burning_core/plugins/content_types/more/more.inc:5
+msgid "Small more link for other pages"
+msgstr ""
+
+#: burning_core/plugins/content_types/more/more.inc:6 burning_core/plugins/content_types/node_metatags/node_metatags.inc:6
+msgid "burning core"
+msgstr ""
+
+#: burning_core/plugins/content_types/more/more.inc:16
+msgid "More questions"
+msgstr "עוד שאלות"
+
+#: burning_core/plugins/content_types/more/more.inc:19
+msgid "More blogs"
+msgstr "עוד בלוגים"
+
+#: burning_core/plugins/content_types/more/more.inc:31
+msgid "Select page"
+msgstr ""
+
+#: burning_core/plugins/content_types/node_metatags/node_metatags.inc:4
+msgid "Node meta tags"
+msgstr ""
+
+#: burning_core/plugins/content_types/node_metatags/node_metatags.inc:5
+msgid "Display meta tags like created time and the owner with font awesome"
+msgstr ""
+
+#: burning_core/plugins/content_types/node_metatags/node_metatags.inc:7 burning_notify/burning_notify.features.field_instance.inc:261 burning_users/burning_users.features.field_instance.inc:298 burning_videos/plugins/content_types/video_metadata/video_metadata.inc:7
+msgid "Node"
+msgstr "פריט תוכן"
+
+#: burning_core/plugins/layouts/burning_9_3/burning_9_3.inc:8
+msgid "burning 9-3"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_9_3/burning_9_3.inc:14 burning_core/plugins/layouts/burning_homepage/burning_homepage.inc:14 burning_core/plugins/layouts/burning_user/burning_user.inc:16 burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc:43
+msgid "First"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_9_3/burning_9_3.inc:15 burning_core/plugins/layouts/burning_user/burning_user.inc:17 burning_core/plugins/layouts/burning_wiki/burning_wiki.inc:18 burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc:44
+msgid "Second"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_blog/burning_blog.inc:8
+msgid "burning blog layout"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_blog/burning_blog.inc:14 burning_core/plugins/layouts/burning_user/burning_user.inc:14
+msgid "Top first"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_blog/burning_blog.inc:15 burning_core/plugins/layouts/burning_user/burning_user.inc:15
+msgid "Top second"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_blog/burning_blog.inc:16 burning_core/plugins/layouts/burning_video/burning_video.inc:16
+msgid "Bottom"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_calendar/burning_calendar.inc:8
+msgid "burning calendar"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_calendar/burning_calendar.inc:15
+msgid "Bottom first"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_calendar/burning_calendar.inc:16
+msgid "Bottom second"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_calendar/burning_calendar.inc:17
+msgid "Bottom third"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_homepage/burning_homepage.inc:8
+msgid "burning home page layout"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_homepage/burning_homepage.inc:15
+msgid "First left side"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_homepage/burning_homepage.inc:16
+msgid "First right side"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_homepage/burning_homepage.inc:17
+msgid "Second top"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_homepage/burning_homepage.inc:18
+msgid "Second middle"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_homepage/burning_homepage.inc:19
+msgid "Second last"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_homepage/burning_homepage.inc:20
+msgid "Second left side"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_homepage/burning_homepage.inc:21
+msgid "Second right side"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_user/burning_user.inc:8
+msgid "burning user page layout"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_video/burning_video.inc:8
+msgid "burning video page layout"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_video/burning_video.inc:14
+msgid "Video"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_video/burning_video.inc:15 burning_videos/burning_videos.views_default.inc:198
+msgid "Other videos"
+msgstr "סרטונים אחרים"
+
+#: burning_core/plugins/layouts/burning_wiki/burning_wiki.inc:8 burning_wiki/plugins/content_types/links/links.inc:6 burning_wiki/plugins/content_types/search_box/search_box.inc:6 burning_wiki/plugins/content_types/wiki_description/wiki_description.inc:6 burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc:6 burning_wiki/plugins/content_types/wikipedia_terms/wikipedia_terms.inc:6
+msgid "burning wiki"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_wiki/burning_wiki.inc:14
+msgid "Main top"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_wiki/burning_wiki.inc:15
+msgid "Category 1"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_wiki/burning_wiki.inc:16
+msgid "Category 2"
+msgstr ""
+
+#: burning_core/plugins/layouts/burning_wiki/burning_wiki.inc:17
+msgid "Category 3"
+msgstr ""
+
+#: burning_core/plugins/styles/burning_region.inc:11 burning_reputation/burning_reputation.module:15
+msgid "burning settings."
+msgstr ""
+
+#: burning_core/plugins/styles/burning_region.inc:59
+msgid "-- None --"
+msgstr ""
+
+#: burning_core/plugins/styles/burning_region.inc:63
+msgid "Сolumn type"
+msgstr ""
+
+#: burning_core/plugins/styles/burning_region.inc:65;87
+msgid "Tiny devices"
+msgstr ""
+
+#: burning_core/plugins/styles/burning_region.inc:66;88
+msgid "Small & medium devices"
+msgstr ""
+
+#: burning_core/plugins/styles/burning_region.inc:67;89
+msgid "Large devices"
+msgstr ""
+
+#: burning_core/plugins/styles/burning_region.inc:76
+msgid "Сolumn size"
+msgstr ""
+
+#: burning_core/plugins/styles/burning_region.inc:85
+msgid "Offset type"
+msgstr ""
+
+#: burning_core/plugins/styles/burning_region.inc:98
+msgid "Offset size"
+msgstr ""
+
+#: burning_core/plugins/styles/burning_region.inc:117
+msgid "Column size + Offset cannot be more than 12!"
+msgstr ""
+
+#: burning_core/plugins/styles/burning_region.inc:138
+msgid "Column type + Offset cannot be more than 12!"
+msgstr ""
+
+#: burning_core/plugins/widgets/burning_vud/burning_vud.inc:12
+msgid "burning vote up down"
+msgstr ""
+
+#: burning_core/plugins/widgets/burning_vud/burning_vud.inc:13
+msgid "burning widget for up an down."
+msgstr ""
+
+#: burning_events/burning_events.features.field_instance.inc:113 burning_events/plugins/content_types/quick_links/new-event.tpl.php:27
+msgid "Date"
+msgstr "תאריך"
+
+#: burning_events/burning_events.features.inc:32
+msgid "Events"
+msgstr ""
+
+#: burning_events/burning_events.views_default.inc:141 burning_group/burning_group.views_default.inc:213;506 burning_pages/burning_pages.views_default.inc:343;617 burning_users/burning_users.views_default.inc:121 burning_videos/burning_videos.views_default.inc:199 burning_wiki/burning_wiki.views_default.inc:111
+msgid "All"
+msgstr "הכל"
+
+#: burning_events/burning_events.views_default.inc:142
+msgid "Month"
+msgstr "חודש"
+
+#: burning_events/burning_events.views_default.inc:143
+msgid "Upcoming"
+msgstr ""
+
+#: burning_events/burning_events.info:0 burning_events/plugins/content_types/quick_links/quick_links.inc:6 burning_events/plugins/content_types/upcoming_events/upcoming_events.inc:5
+msgid "burning events"
+msgstr ""
+
+#: burning_events/burning_events.info:0
+msgid "Manage events for burning"
+msgstr ""
+
+#: burning_events/plugins/content_types/quick_links/new-event.tpl.php:5 burning_questions/js/inline_edit.js:0 burning_questions/plugins/content_types/new_question/new-question.tpl.php:5 burning_users/templates/about-modal.tpl.php:5 burning_videos/plugins/content_types/manage_links/add-video.tpl.php:5
+msgid "Close"
+msgstr ""
+
+#: burning_events/plugins/content_types/quick_links/new-event.tpl.php:6 burning_events/plugins/content_types/quick_links/quick_links.inc:25
+msgid "Create event"
+msgstr "צור אירוע"
+
+#: burning_events/plugins/content_types/quick_links/new-event.tpl.php:13
+msgid "The event has created successfully. <a href=\"@url\">See your event</a> or wait a second"
+msgstr ""
+
+#: burning_events/plugins/content_types/quick_links/new-event.tpl.php:18
+msgid "Event title"
+msgstr "כותרת האירוע"
+
+#: burning_events/plugins/content_types/quick_links/new-event.tpl.php:22 burning_videos/burning_videos.features.field_instance.inc:364
+msgid "Description"
+msgstr "תיאור"
+
+#: burning_events/plugins/content_types/quick_links/new-event.tpl.php:23
+msgid "Short description about the event"
+msgstr "תיאור על האירוע"
+
+#: burning_events/plugins/content_types/quick_links/new-event.tpl.php:29
+msgid "Set start date"
+msgstr "הגדר תאריך התחלה"
+
+#: burning_events/plugins/content_types/quick_links/new-event.tpl.php:36
+msgid "Add end date"
+msgstr "הגדר תאריך סיום"
+
+#: burning_events/plugins/content_types/quick_links/new-event.tpl.php:42
+msgid "End date"
+msgstr "תאריך סיום"
+
+#: burning_events/plugins/content_types/quick_links/new-event.tpl.php:44
+msgid "Set end date"
+msgstr "הגדר תאריך סיום"
+
+#: burning_events/plugins/content_types/quick_links/new-event.tpl.php:51 burning_questions/plugins/content_types/new_question/new-question.tpl.php:36 burning_users/templates/about-modal.tpl.php:15 burning_videos/plugins/content_types/manage_links/add-video.tpl.php:31 burning_videos/plugins/content_types/playlists/playlist-form.tpl.php:31
+msgid "Save"
+msgstr "שמירה"
+
+#: burning_events/plugins/content_types/quick_links/quick_links.inc:4
+msgid "Events links"
+msgstr ""
+
+#: burning_events/plugins/content_types/quick_links/quick_links.inc:5
+msgid "Links for the burning calendar"
+msgstr ""
+
+#: burning_events/plugins/content_types/quick_links/new_events.js:0 burning_questions/plugins/content_types/new_question/new_question.js:0
+msgid "Title field is a required field."
+msgstr "הכותרת היא הכרחית"
+
+#: burning_events/plugins/content_types/quick_links/new_events.js:0
+msgid "The description is a required field."
+msgstr "התיאור הכרחי"
+
+#: burning_events/plugins/content_types/quick_links/new_events.js:0
+msgid "You must supply a start date."
+msgstr "תאריך התחלה חסר"
+
+#: burning_events/plugins/content_types/quick_links/new_events.js:0
+msgid "You need to fill the end date."
+msgstr "אתה צריך להזין תאריך סיום"
+
+#: burning_events/plugins/content_types/upcoming_events/upcoming-events.tpl.php:2 burning_events/plugins/content_types/upcoming_events/upcoming_events.inc:4
+msgid "Upcoming events"
+msgstr "אירועים עתידיים"
+
+#: burning_events/plugins/content_types/upcoming_events/upcoming_events.inc:18
+msgid "There are no upcoming events"
+msgstr "לא קיימים אירועים עתידיים"
+
+#: burning_events/plugins/restful/node/event/event__1_0.inc:4
+msgid "Event"
+msgstr ""
+
+#: burning_events/plugins/restful/node/event/event__1_0.inc:5
+msgid "Restuling event bundle."
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1516
+msgid "Determine if this is an OG group."
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1517 burning_group/burning_group.features.inc:90
+msgid "Group"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1518
+msgid "Group banner CropImage"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1519
+msgid "Group logo"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1520
+msgid "Group membership"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1521
+msgid "Group mission"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1522
+msgid "Group score"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1524
+msgid "Links to he project's homepage, or any related resources. Multiple values allowed."
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1525
+msgid "Multiple values allowed."
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1526
+msgid "News Image"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1527
+msgid "News rating"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1528
+msgid "Project Banner text"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1529
+msgid "Project banner CropImage"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1530
+msgid "Project gallery CropImage"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1531
+msgid "Project links"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1532
+msgid "Project rating"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1533
+msgid "Project videos"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1534
+msgid "Recommendation CropImage"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1535
+msgid "Recommendation Links"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1536
+msgid "Recommendation rating"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1537
+msgid "Recommendation video"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1538
+msgid "Talk about what you recommend! Add a youtube link to your recommendation. Multiple values allowed."
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1539
+msgid "Up only."
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1540
+msgid "Will appear at top of the project page, to the right of project image"
+msgstr ""
+
+#: burning_group/burning_group.features.field_instance.inc:1541
+msgid "Youtube links. Multiple videos allowed."
+msgstr ""
+
+#: burning_group/burning_group.features.inc:94
+msgid "Group name"
+msgstr ""
+
+#: burning_group/burning_group.features.inc:98
+msgid "Group banner"
+msgstr ""
+
+#: burning_group/burning_group.features.inc:100
+msgid "A content type for the group's page. Image and text. Presented by views_bootstrap module."
+msgstr ""
+
+#: burning_group/burning_group.features.inc:106
+msgid "News"
+msgstr ""
+
+#: burning_group/burning_group.features.inc:108
+msgid "A group content type for group news."
+msgstr ""
+
+#: burning_group/burning_group.features.inc:114
+msgid "Project"
+msgstr ""
+
+#: burning_group/burning_group.features.inc:116
+msgid "A group content type to display projects."
+msgstr ""
+
+#: burning_group/burning_group.features.inc:118
+msgid "Project name"
+msgstr ""
+
+#: burning_group/burning_group.features.inc:122
+msgid "Recommendation"
+msgstr ""
+
+#: burning_group/burning_group.features.inc:124
+msgid "recommend a project or a service provider!"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:197
+msgid "Defaults"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:211
+msgid "There is no content in this group."
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:212
+msgid "OG membership from node"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:216
+msgid "Blogs and News of Group"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:217
+msgid "Blogs & News"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:218
+msgid "Videos of Group"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:219 burning_videos/burning_videos.features.field_instance.inc:368
+msgid "Videos"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:220
+msgid "Latest questions"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:221
+msgid "Latest questions:"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:491
+msgid "Group banners"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:505
+msgid "Get the actual content from a content revision."
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:507 burning_videos/plugins/content_types/manage_links/manage_links.inc:59
+msgid "Page"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:509
+msgid "Group projects carousel"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:510
+msgid "Selected projects"
+msgstr ""
+
+#: burning_group/burning_group.views_default.inc:511
+msgid "Project banner"
+msgstr ""
+
+#: burning_group/burning_group.info:0
+msgid "burning Group"
+msgstr ""
+
+#: burning_group/burning_group.info:0
+msgid "Adds the group page, content types: project, news, recommendation, and makes other ct's group content."
+msgstr ""
+
+#: burning_migrate/burning_migrate.info:0
+msgid "burning Migrate"
+msgstr ""
+
+#: burning_migrate/burning_migrate.info:0
+msgid "Import dummy content for the development of burning"
+msgstr ""
+
+#: burning_migrate/includes/burning_migrate.migrate.entity.inc:14
+msgid "Import @type - @bundle from CSV file."
+msgstr ""
+
+#: burning_migrate/includes/handlers/user/User.php:21
+msgid "Import users from a CSV file."
+msgstr ""
+
+#: burning_notify/burning_notify.features.field_instance.inc:260 burning_users/burning_users.features.field_instance.inc:293
+msgid "Comment"
+msgstr "תגובה"
+
+#: burning_notify/burning_notify.features.field_instance.inc:262 burning_users/burning_users.views_default.inc:120 burning_users/plugins/content_types/about/about.inc:7 burning_users/plugins/content_types/recent/recent.inc:7 burning_users/plugins/content_types/user_picture/user_picture.inc:7 burning_videos/burning_videos.views_default.inc:194 burning_videos/plugins/content_types/playlists/playlists.inc:6
+msgid "User"
+msgstr "משתמש"
+
+#: burning_notify/burning_notify.module:80
+msgid "An error has occurred when trying to send the message via email: @message"
+msgstr ""
+
+#: burning_notify/burning_notify.module:121
+msgid "Select which users to notify."
+msgstr ""
+
+#: burning_notify/burning_notify.module:122
+msgid "If you'll select users name only they will be notified on a new movie. If you select roles all the users with that roles will be notify"
+msgstr ""
+
+#: burning_notify/burning_notify.module:124
+msgid "Users"
+msgstr "חברי האתר"
+
+#: burning_notify/burning_notify.module:125
+msgid "Roles"
+msgstr "תפקידים"
+
+#: burning_notify/burning_notify.module:136
+msgid "Select users"
+msgstr ""
+
+#: burning_notify/burning_notify.module:137
+msgid "Select which users will get notified when a new video is submitted."
+msgstr ""
+
+#: burning_notify/burning_notify.module:173
+msgid "Add a user"
+msgstr ""
+
+#: burning_notify/burning_notify.module:185
+msgid "Select roles"
+msgstr ""
+
+#: burning_notify/burning_notify.module:186
+msgid "When a new video is submitted, all the users that own the selected roles will be notified. Remember to select roles that can edit the Youtube content type."
+msgstr ""
+
+#: burning_notify/burning_notify.module:201
+msgid "Submit"
+msgstr ""
+
+#: burning_notify/burning_notify.module:16
+msgid "New video notifications"
+msgstr ""
+
+#: burning_notify/burning_notify.module:17
+msgid "Select which users will get notified when a new video is submitted"
+msgstr ""
+
+#: burning_notify/burning_notify.info:0
+msgid "burning notify"
+msgstr ""
+
+#: burning_notify/burning_notify.info:0
+msgid "Responsible for notifying users on actions concerned to them."
+msgstr ""
+
+#: burning_pages/burning_pages.views_default.inc:326
+msgid "Comments"
+msgstr "תגובות"
+
+#: burning_pages/burning_pages.views_default.inc:340
+msgid "No one posted any comment."
+msgstr "אף אחד עוד לא הגיב."
+
+#: burning_pages/burning_pages.views_default.inc:341
+msgid "Content"
+msgstr "תוכן"
+
+#: burning_pages/burning_pages.views_default.inc:466
+msgid "Group node from OG membership"
+msgstr ""
+
+#: burning_pages/burning_pages.views_default.inc:468
+msgid "[title]"
+msgstr ""
+
+#: burning_pages/burning_pages.views_default.inc:616 burning_questions/burning_questions.features.field_instance.inc:209 burning_users/burning_users.views_default.inc:243 burning_videos/burning_videos.features.field_instance.inc:369
+msgid "Vote"
+msgstr "הצבע"
+
+#: burning_pages/burning_pages.views_default.inc:724
+msgid "uid"
+msgstr ""
+
+#: burning_pages/burning_pages.views_default.inc:725
+msgid "[name] ([field_reputation])"
+msgstr ""
+
+#: burning_pages/burning_pages.views_default.inc:726
+msgid "<i class=\"fa fa-heart\"></i> [field_reputation] <i class=\"fa fa-eye\"></i> [field_entity_view_count]"
+msgstr ""
+
+#: burning_pages/burning_pages.module:156
+msgid "Search for service provider"
+msgstr ""
+
+#: burning_pages/burning_pages.info:0 burning_pages/plugins/content_types/drupal_of_the_month/drupal_of_the_month.inc:6 burning_pages/plugins/content_types/get_involve/get_involve.inc:10 burning_pages/plugins/content_types/popular_tags/popular_tags.inc:6 burning_pages/plugins/content_types/service_provider/service_provider.inc:6 burning_pages/plugins/content_types/service_provider_search/service_provider_search.inc:6
+msgid "burning pages"
+msgstr ""
+
+#: burning_pages/burning_pages.info:0
+msgid "Managing the pages of burning"
+msgstr ""
+
+#: burning_pages/plugins/content_types/drupal_of_the_month/drupal-of-the-month.tpl.php:3 burning_pages/plugins/content_types/drupal_of_the_month/drupal_of_the_month.inc:4
+msgid "Drupal of the month"
+msgstr ""
+
+#: burning_pages/plugins/content_types/drupal_of_the_month/drupal-of-the-month.tpl.php:31
+msgid "From the portfolio of: "
+msgstr ""
+
+#: burning_pages/plugins/content_types/drupal_of_the_month/drupal_of_the_month.inc:5
+msgid "Display the drupal of the month."
+msgstr ""
+
+#: burning_pages/plugins/content_types/get_involve/get_involve.inc:8
+msgid "Get involve"
+msgstr ""
+
+#: burning_pages/plugins/content_types/get_involve/get_involve.inc:9
+msgid "Get involve with Drupal Israel community."
+msgstr ""
+
+#: burning_pages/plugins/content_types/get_involve/get_involve.inc:18
+msgid "Facebook"
+msgstr ""
+
+#: burning_pages/plugins/content_types/get_involve/get_involve.inc:19
+msgid "Google plus"
+msgstr ""
+
+#: burning_pages/plugins/content_types/get_involve/get_involve.inc:20
+msgid "Twitter"
+msgstr ""
+
+#: burning_pages/plugins/content_types/get_involve/get_involve.inc:21
+msgid "Github"
+msgstr ""
+
+#: burning_pages/plugins/content_types/get_involve/get_involve.inc:22
+msgid "Instagram"
+msgstr ""
+
+#: burning_pages/plugins/content_types/get_involve/get_involve.inc:23
+msgid "Yotube"
+msgstr ""
+
+#: burning_pages/plugins/content_types/popular_tags/popular_tags.inc:4
+msgid "Popular tags"
+msgstr ""
+
+#: burning_pages/plugins/content_types/popular_tags/popular_tags.inc:5
+msgid "Display a list of all the popular tags terms."
+msgstr ""
+
+#: burning_pages/plugins/content_types/popular_tags/popular_tags.inc:11
+msgid "Popular tags: "
+msgstr "תגיות פופלריות:"
+
+#: burning_pages/plugins/content_types/service_provider/service_provider.inc:4
+msgid "Service provider"
+msgstr ""
+
+#: burning_pages/plugins/content_types/service_provider/service_provider.inc:5 burning_pages/plugins/content_types/service_provider_search/service_provider_search.inc:5
+msgid "Provide list of service providers"
+msgstr ""
+
+#: burning_pages/plugins/content_types/service_provider_search/service_provider_search.inc:4
+msgid "Service provider search"
+msgstr ""
+
+#: burning_pages/plugins/content_types/service_provider_search/assets/search_provider.js:0
+msgid "Service provider was not found."
+msgstr ""
+
+#: burning_permission/burning_permission.info:0
+msgid "burning Permission"
+msgstr ""
+
+#: burning_permission/burning_permission.info:0
+msgid "Export permissions"
+msgstr ""
+
+#: burning_questions/burning_questions.features.field_instance.inc:207
+msgid "Count"
+msgstr "כמות"
+
+#: burning_questions/burning_questions.features.inc:113
+msgid "Questions users asking"
+msgstr ""
+
+#: burning_questions/burning_questions.views_default.inc:136
+msgid "Author"
+msgstr "מחבר"
+
+#: burning_questions/burning_questions.views_default.inc:137
+msgid "Published at"
+msgstr ""
+
+#: burning_questions/burning_questions.module:24 burning_questions/burning_questions.info:0 burning_questions/plugins/content_types/new_question/new_question.inc:6
+msgid "burning questions"
+msgstr ""
+
+#: burning_questions/burning_questions.info:0
+msgid "Holds all that realte to question in the burning project."
+msgstr ""
+
+#: burning_questions/js/inline_edit.js:0;0 burning_users/plugins/restful/user/update/update__1_0.inc:4
+msgid "Update"
+msgstr "עדכן"
+
+#: burning_questions/js/inline_edit.js:0
+msgid "Empty title"
+msgstr ""
+
+#: burning_questions/js/inline_edit.js:0
+msgid "The title is empty. Populate it and click again"
+msgstr ""
+
+#: burning_questions/js/inline_edit.js:0
+msgid "Empty body"
+msgstr ""
+
+#: burning_questions/js/inline_edit.js:0
+msgid "The body is empty. Populate it and click again"
+msgstr ""
+
+#: burning_questions/js/inline_edit.js:0 burning_questions/plugins/content_types/new_question/new-question.tpl.php:29
+msgid "Add tags for the question"
+msgstr "הוסף תגיות עבור השאלה"
+
+#: burning_questions/js/inline_edit.js:0
+msgid "Send"
+msgstr "שלח"
+
+#: burning_questions/plugins/content_types/new_question/new-question.tpl.php:6
+msgid "Create question"
+msgstr "שאל שאלה"
+
+#: burning_questions/plugins/content_types/new_question/new-question.tpl.php:13
+msgid "The question has created successfully. <a href=\"@url\">Visit the question</a> or wait a second"
+msgstr ""
+
+#: burning_questions/plugins/content_types/new_question/new-question.tpl.php:17
+msgid "Title: "
+msgstr "כותרת:"
+
+#: burning_questions/plugins/content_types/new_question/new-question.tpl.php:18 burning_questions/plugins/content_types/new_question/new_question.inc:27
+msgid "Ask question"
+msgstr "שאל שאלה"
+
+#: burning_questions/plugins/content_types/new_question/new-question.tpl.php:22
+msgid "Question: "
+msgstr "שאלה:"
+
+#: burning_questions/plugins/content_types/new_question/new-question.tpl.php:23
+msgid "Ask your question"
+msgstr ""
+
+#: burning_questions/plugins/content_types/new_question/new-question.tpl.php:27
+msgid "Tags: "
+msgstr "תגיות:"
+
+#: burning_questions/plugins/content_types/new_question/new_question.inc:4
+msgid "New question"
+msgstr ""
+
+#: burning_questions/plugins/content_types/new_question/new_question.inc:5
+msgid "News question plugin."
+msgstr ""
+
+#: burning_questions/plugins/content_types/new_question/new_question.js:0
+msgid "The body is a required field."
+msgstr ""
+
+#: burning_questions/plugins/restful/node/question/1.0/question__1_0.inc:5
+msgid "Restuling question bundle."
+msgstr ""
+
+#: burning_questions/plugins/restful/taxonomy_term/tags/1.0/tags__1_0.inc:5
+msgid "Restuling tags terms"
+msgstr ""
+
+#: burning_reputation/burning_reputation.features.field_instance.inc:95
+msgid "Reputation"
+msgstr "דירוג"
+
+#: burning_reputation/burning_reputation.features.field_instance.inc:96
+msgid "Views"
+msgstr ""
+
+#: burning_reputation/burning_reputation.module:41
+msgid "Set the number of points user get when posting for a question"
+msgstr ""
+
+#: burning_reputation/burning_reputation.module:46
+msgid "Set the number of points user get when commenting for a question"
+msgstr ""
+
+#: burning_reputation/burning_reputation.module:51
+msgid "Set the number of points user get when voting for his question"
+msgstr ""
+
+#: burning_reputation/burning_reputation.module:56
+msgid "Set the number of points user get when voting for his question's comment"
+msgstr ""
+
+#: burning_reputation/burning_reputation.module:25
+msgid "Manage reputation"
+msgstr ""
+
+#: burning_reputation/burning_reputation.info:0
+msgid "burning reputation"
+msgstr ""
+
+#: burning_reputation/burning_reputation.info:0
+msgid "burning reputation module"
+msgstr ""
+
+#: burning_responsive/burning_responsive.info:0
+msgid "burning Responsive"
+msgstr ""
+
+#: burning_responsive/burning_responsive.info:0
+msgid "Adds image styles and responsive capabiltles"
+msgstr ""
+
+#: burning_search/burning_search.info:0
+msgid "burning search"
+msgstr ""
+
+#: burning_social/burning_social.info:0
+msgid "burning social"
+msgstr ""
+
+#: burning_social/burning_social.info:0
+msgid "Managing settings for social networks of burning"
+msgstr ""
+
+#: burning_users/burning_users.features.field_instance.inc:292 burning_users/plugins/content_types/about/about.inc:4
+msgid "About"
+msgstr "אודות"
+
+#: burning_users/burning_users.features.field_instance.inc:294
+msgid "Entity identifier"
+msgstr ""
+
+#: burning_users/burning_users.features.field_instance.inc:295
+msgid "Entity view count"
+msgstr ""
+
+#: burning_users/burning_users.features.field_instance.inc:296
+msgid "First name"
+msgstr ""
+
+#: burning_users/burning_users.features.field_instance.inc:297
+msgid "Last name"
+msgstr ""
+
+#: burning_users/burning_users.views.inc:12
+msgid "burning users profile picture"
+msgstr ""
+
+#: burning_users/burning_users.views.inc:13
+msgid "Generate a profile picture according to burning logic."
+msgstr ""
+
+#: burning_users/burning_users.module:107
+msgid "comment"
+msgstr ""
+
+#: burning_users/burning_users.module:107
+msgid "node"
+msgstr "פריט תוכן"
+
+#: burning_users/burning_users.module:109
+msgid "Up voted"
+msgstr ""
+
+#: burning_users/burning_users.module:109
+msgid "Down voted"
+msgstr ""
+
+#: burning_users/burning_users.info:0
+msgid "burning_users"
+msgstr ""
+
+#: burning_users/burning_users.info:0
+msgid "Features"
+msgstr ""
+
+#: burning_users/plugins/content_types/about/about.inc:5
+msgid "Smart about plugins with inline editing."
+msgstr ""
+
+#: burning_users/plugins/content_types/about/about.inc:6 burning_users/plugins/content_types/recent/recent.inc:6 burning_users/plugins/content_types/user_picture/user_picture.inc:6
+msgid "burning users"
+msgstr ""
+
+#: burning_users/plugins/content_types/about/about.inc:24
+msgid "Whoops! it seems that you don't have any description about your self. Why don't you <a href='#' data-toggle='modal' data-target='#UpdateAbout'>add some info</a>?"
+msgstr ""
+"אופס! נראה שאין מידע כללי על עצמך. למה "
+"שלא <a href='#' data-toggle='modal' "
+"data-target='#UpdateAbout'>תוסיף מידע על עצמך</a>?\r\n"
+
+#: burning_users/plugins/content_types/about/about.js:0
+msgid "This is required field"
+msgstr ""
+
+#: burning_users/plugins/content_types/recent/recent.inc:4
+msgid "Recent"
+msgstr ""
+
+#: burning_users/plugins/content_types/recent/recent.inc:5
+msgid "Retrieve recent information."
+msgstr ""
+
+#: burning_users/plugins/content_types/recent/recent.inc:32
+msgid "Recent @bundle: <a href=\"@href\">@label</a>"
+msgstr ""
+
+#: burning_users/plugins/content_types/recent/recent.inc:51
+msgid "Recent bundle"
+msgstr ""
+
+#: burning_users/plugins/content_types/recent/recent.inc:53
+msgid "Select the bundle of node you'ld like to retrieve the last entry of the user."
+msgstr ""
+
+#: burning_users/plugins/content_types/user_picture/user_picture.inc:4
+msgid "User picture"
+msgstr ""
+
+#: burning_users/plugins/content_types/user_picture/user_picture.inc:5
+msgid "Display the user picture."
+msgstr ""
+
+#: burning_users/plugins/content_types/user_picture/user_picture.inc:32
+msgid "Image style type"
+msgstr ""
+
+#: burning_users/plugins/content_types/user_picture/user_picture.inc:34
+msgid "Select the image style to apply on the user picture."
+msgstr ""
+
+#: burning_users/plugins/restful/user/update/update__1_0.inc:5
+msgid "Restuling user."
+msgstr ""
+
+#: burning_users/templates/about-modal.tpl.php:6
+msgid "Information about your self"
+msgstr "מידע על עצמך"
+
+#: burning_users/templates/about-modal.tpl.php:10
+msgid "About your self: "
+msgstr "מידע על עצמך:"
+
+#: burning_users/templates/about-modal.tpl.php:11
+msgid "Write something about your self"
+msgstr "תכתוב משהו על עצמך"
+
+#: burning_users/templates/about-modal.tpl.php:16
+msgid "The about field has updated successfully. After closing the dispaly will change"
+msgstr ""
+
+#: burning_users/views/handlers/burning_users_profile_picture.inc:21
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: burning_users/views/handlers/burning_users_profile_picture.inc:27
+msgid "Image style"
+msgstr ""
+
+#: burning_users/views/handlers/burning_users_profile_picture.inc:28
+msgid "Using <em>Default</em> will use the site-wide image style for user pictures set in the <a href=\"!account-settings\">Account settings</a>."
+msgstr ""
+
+#: burning_videos/burning_videos.features.field_instance.inc:361
+msgid "Access level"
+msgstr ""
+
+#: burning_videos/burning_videos.features.field_instance.inc:362
+msgid "Address"
+msgstr ""
+
+#: burning_videos/burning_videos.features.field_instance.inc:365
+msgid "Determine if the video will be shown in general videos page"
+msgstr ""
+
+#: burning_videos/burning_videos.features.field_instance.inc:366
+msgid "Other users"
+msgstr ""
+
+#: burning_videos/burning_videos.features.field_instance.inc:367
+msgid "Show in videos"
+msgstr ""
+
+#: burning_videos/burning_videos.features.inc:35
+msgid "Playlist"
+msgstr ""
+
+#: burning_videos/burning_videos.features.inc:43 burning_videos/plugins/validator/node/youtube/node__youtube.inc:4
+msgid "Youtube"
+msgstr ""
+
+#: burning_videos/burning_videos.views_default.inc:195
+msgid "Duration"
+msgstr ""
+
+#: burning_videos/burning_videos.views_default.inc:196
+msgid "All videos"
+msgstr ""
+
+#: burning_videos/burning_videos.module:29
+msgid "Youtube metadata"
+msgstr ""
+
+#: burning_videos/burning_videos.module:30
+msgid "Provide information from the JSON output for a youtube video."
+msgstr ""
+
+#: burning_videos/burning_videos.module:78
+msgid "Suggested videos approved"
+msgstr ""
+
+#: burning_videos/burning_videos.module:79
+msgid "Will approve youtube videos when sending them."
+msgstr ""
+
+#: burning_videos/burning_videos.info:0
+msgid "burning Videos"
+msgstr ""
+
+#: burning_videos/burning_videos.info:0
+msgid "Adding videos to the site."
+msgstr ""
+
+#: burning_videos/plugins/content_types/manage_links/add-video.tpl.php:6
+msgid "Add youtube video"
+msgstr "הוסף סרטון וידאו"
+
+#: burning_videos/plugins/content_types/manage_links/add-video.tpl.php:13
+msgid "The video added successfully. <a href=\"@url\">Click here</a> to view it or wait a second"
+msgstr ""
+"הסרטון התווסף בהצלחה <a href=\"@url\">לחץ "
+"כאן</a> tע״מ לצפות בסרטון או המתן כמה "
+"שניות"
+
+#: burning_videos/plugins/content_types/manage_links/add-video.tpl.php:16
+msgid "Youtube address: "
+msgstr "כתובת סרטון Youtube:"
+
+#: burning_videos/plugins/content_types/manage_links/add-video.tpl.php:17
+msgid "Youtube link address"
+msgstr "כתובת סרטון יוטיוב"
+
+#: burning_videos/plugins/content_types/manage_links/manage_links.inc:4
+msgid "Manage links"
+msgstr ""
+
+#: burning_videos/plugins/content_types/manage_links/manage_links.inc:5
+msgid "Links for the burning youtube module"
+msgstr ""
+
+#: burning_videos/plugins/content_types/manage_links/manage_links.inc:6 burning_videos/plugins/content_types/playlist_videos/playlist_videos.inc:5 burning_videos/plugins/content_types/playlist_views/playlist_views.inc:5 burning_videos/plugins/content_types/playlists/playlists.inc:5 burning_videos/plugins/content_types/video_metadata/video_metadata.inc:6
+msgid "burning youtube"
+msgstr ""
+
+#: burning_videos/plugins/content_types/manage_links/manage_links.inc:25
+msgid "Manage playlists"
+msgstr "נהל רשימות השמעה"
+
+#: burning_videos/plugins/content_types/manage_links/manage_links.inc:35
+msgid "Add video"
+msgstr "הוסף וידאו"
+
+#: burning_videos/plugins/content_types/manage_links/manage_links.inc:61
+msgid "Gallery front page"
+msgstr ""
+
+#: burning_videos/plugins/content_types/manage_links/manage_links.inc:62
+msgid "Playlist manager"
+msgstr ""
+
+#: burning_videos/plugins/content_types/playlist_videos/playlist_videos.inc:4
+msgid "Playlist videos"
+msgstr ""
+
+#: burning_videos/plugins/content_types/playlist_views/playlist_views.inc:4
+msgid "Playlist views"
+msgstr ""
+
+#: burning_videos/plugins/content_types/playlist_views/playlist_views.inc:51 burning_videos/plugins/restful/node/playlist/1.0/playlist__1_0.inc:4 burning_videos/plugins/restful/node/youtube/1.0/youtube__1_0.inc:4
+msgid "Playlists"
+msgstr "רשימות השמעה"
+
+#: burning_videos/plugins/content_types/playlists/playlist-form.tpl.php:4
+msgid "Name: "
+msgstr "שם:"
+
+#: burning_videos/plugins/content_types/playlists/playlist-form.tpl.php:5
+msgid "Enter name"
+msgstr "הזן שם"
+
+#: burning_videos/plugins/content_types/playlists/playlist-form.tpl.php:9
+msgid "Videos: "
+msgstr "פריטים:"
+
+#: burning_videos/plugins/content_types/playlists/playlist-form.tpl.php:10
+msgid "Type name of a video"
+msgstr "הקלד שם של וידאו"
+
+#: burning_videos/plugins/content_types/playlists/playlist-form.tpl.php:17
+msgid "Description: "
+msgstr "תיאור:"
+
+#: burning_videos/plugins/content_types/playlists/playlist-form.tpl.php:22
+msgid "Access level: "
+msgstr "הרשאות צפייה:"
+
+#: burning_videos/plugins/content_types/playlists/playlist-form.tpl.php:24
+msgid "Public + search"
+msgstr "ציבורי + חיפוש"
+
+#: burning_videos/plugins/content_types/playlists/playlist-form.tpl.php:25
+msgid "Public"
+msgstr "ציבורי"
+
+#: burning_videos/plugins/content_types/playlists/playlist-form.tpl.php:26
+msgid "Private"
+msgstr "פרטי"
+
+#: burning_videos/plugins/content_types/playlists/playlist-form.tpl.php:35
+msgid "The playlist has created successfully"
+msgstr ""
+
+#: burning_videos/plugins/content_types/playlists/playlists.inc:4
+msgid "User playlists"
+msgstr ""
+
+#: burning_videos/plugins/content_types/playlists/playlists.inc:32 burning_videos/plugins/content_types/playlists/playlists_manage.js:0
+msgid "Delete"
+msgstr "מחיקה"
+
+#: burning_videos/plugins/content_types/playlists/playlists.inc:33 burning_videos/plugins/content_types/playlists/playlists_manage.js:0
+msgid "Edit"
+msgstr "עריכה"
+
+#: burning_videos/plugins/content_types/playlists/playlists.inc:40 burning_videos/plugins/content_types/playlists/playlists_manage.js:0
+msgid "You did not created any playlist. <a href=\"#\" class=\"show-playlist-form\">Create a new playlist</a>"
+msgstr ""
+"עוד לא יצרת רשימת השמעה. <a href=\"#\" "
+"class=\"show-playlist-form\">צור רשימת השמעה חדשה</a>"
+
+#: burning_videos/plugins/content_types/playlists/playlists.inc:46
+msgid "Number of videos"
+msgstr "מספר פריטים"
+
+#: burning_videos/plugins/content_types/playlists/playlists.inc:46
+msgid "Options"
+msgstr "אפשרויות"
+
+#: burning_videos/plugins/content_types/playlists/playlists_manage.js:0
+msgid "Please fill in the name."
+msgstr ""
+
+#: burning_videos/plugins/content_types/playlists/playlists_manage.js:0
+msgid "Please insert videos."
+msgstr ""
+
+#: burning_videos/plugins/content_types/playlists/playlists_manage.js:0
+msgid "Please insert description."
+msgstr ""
+
+#: burning_videos/plugins/content_types/playlists/playlists_manage.js:0
+msgid "An error has occurred while creating the playlist. Please content the site admin."
+msgstr ""
+
+#: burning_videos/plugins/content_types/video_metadata/video_metadata.inc:4;5
+msgid "Video metadata"
+msgstr ""
+
+#: burning_videos/plugins/restful/node/playlist/1.0/playlist__1_0.inc:5 burning_videos/plugins/restful/node/youtube/1.0/youtube__1_0.inc:5
+msgid "Expose all the playlists"
+msgstr ""
+
+#: burning_videos/plugins/validator/node/youtube/node__youtube.inc:5
+msgid "Validate youtube videos upon creation."
+msgstr ""
+
+#: burning_wiki/burning_wiki.features.field_instance.inc:97
+msgid "Category"
+msgstr "סיווג"
+
+#: burning_wiki/burning_wiki.features.inc:32 burning_wiki/plugins/restful/node/wiki/1.0/wiki__1_0.inc:4
+msgid "Wiki"
+msgstr ""
+
+#: burning_wiki/burning_wiki.views_default.inc:103
+msgid "Recently added entries"
+msgstr "תכנים שהתווספו לאחרונה"
+
+#: burning_wiki/burning_wiki.views_default.inc:110
+msgid "Read more"
+msgstr ""
+
+#: burning_wiki/burning_wiki.module:44
+msgid "Enter search text"
+msgstr "הזן טקסט לחיפוש"
+
+#: burning_wiki/burning_wiki.module:58
+msgid "Front page"
+msgstr "דף ראשי"
+
+#: burning_wiki/burning_wiki.module:65
+msgid "Create documentation"
+msgstr "צור מסמך"
+
+#: burning_wiki/burning_wiki.info:0
+msgid "burning WIKI"
+msgstr ""
+
+#: burning_wiki/burning_wiki.info:0
+msgid "Documetation section for burning"
+msgstr ""
+
+#: burning_wiki/burning_wiki.info:0
+msgid "Other"
+msgstr ""
+
+#: burning_wiki/js/burning_wiki.js:0
+msgid "Category: "
+msgstr ""
+
+#: burning_wiki/plugins/content_types/links/links.inc:4
+msgid "Links"
+msgstr ""
+
+#: burning_wiki/plugins/content_types/links/links.inc:5
+msgid "Links for the wiki page."
+msgstr ""
+
+#: burning_wiki/plugins/content_types/search_box/search_box.inc:4
+msgid "Search box"
+msgstr ""
+
+#: burning_wiki/plugins/content_types/search_box/search_box.inc:5
+msgid "Supply small search box."
+msgstr ""
+
+#: burning_wiki/plugins/content_types/wiki_description/wiki_description.inc:4
+msgid "Welcome text"
+msgstr ""
+
+#: burning_wiki/plugins/content_types/wiki_description/wiki_description.inc:5
+msgid "Welcome text."
+msgstr ""
+
+#: burning_wiki/plugins/content_types/wiki_description/wiki_description.inc:12
+msgid "Welcome to burning wikipedia. This is where you can find info on how to work with Drupal in several levels. Good luck!"
+msgstr ""
+"ברוך הבא לדוקומנטציה של burning. אפשר "
+"למצוא מידע על איך לעבוד עם דרופל בכל "
+"מיני רמות. בהצלחה!"
+
+#: burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc:4
+msgid "Wiki from category"
+msgstr ""
+
+#: burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc:5
+msgid "DDisplay a list of nodes from a given category."
+msgstr ""
+
+#: burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc:7 burning_wiki/plugins/content_types/wikipedia_terms/wikipedia_terms.inc:7
+msgid "Taxonomy term"
+msgstr ""
+
+#: burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc:40
+msgid "Position"
+msgstr ""
+
+#: burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc:41
+msgid "Select the position: first, second or third"
+msgstr ""
+
+#: burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc:45
+msgid "Third"
+msgstr ""
+
+#: burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc:52
+msgid "Location"
+msgstr "מיקום"
+
+#: burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc:54
+msgid "Documentation home page"
+msgstr ""
+
+#: burning_wiki/plugins/content_types/wiki_from_category/wiki_from_category.inc:55
+msgid "Documentation term page"
+msgstr ""
+
+#: burning_wiki/plugins/content_types/wikipedia_terms/wikipedia_terms.inc:4
+msgid "Wikipedia terns"
+msgstr ""
+
+#: burning_wiki/plugins/content_types/wikipedia_terms/wikipedia_terms.inc:5
+msgid "Display all the terms."
+msgstr ""
+
+#: burning_wiki/plugins/restful/node/wiki/1.0/wiki__1_0.inc:5
+msgid "Restuling wiki nodes"
+msgstr ""
+
+msgid "Follow"
+msgstr "עקוב"
+
+msgid "Unfollow"
+msgstr "בטל מעקב"
+
+msgid "Next"
+msgstr "הבא"
+
+msgid "Prev"
+msgstr "הקודם"
+
+msgid "Search for content, tags, comments or users"
+msgstr "חפש עבור תוכן, תגיות, תגובות או משתמשים"
+
+msgid "Most active users"
+msgstr "המשתמשים הכי פעילים"
+
+msgid "Login"
+msgstr "התחבר"

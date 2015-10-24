@@ -1,0 +1,14 @@
+.DS_store
+.idea
+burning/1
+burning/behat/vendor
+burning/behat/screenshots/*.png
+burning/behat/behat.local.yml
+burning/behat/bin
+burning/libraries
+burning/modules/contrib/*
+burning/themes/bootstrap
+design/app/js/config/flag.js
+design/app/js/config/language.js
+install.sh
+www
