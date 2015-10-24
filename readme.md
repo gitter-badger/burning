@@ -2,7 +2,7 @@ burning
 ----------
 
 [![Join the chat at https://gitter.im/burning/burning](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/burning/burning?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-![image](https://travis-ci.org/burning/burning.svg)
+![image](https://travis-ci.org/midburn/burning.svg)
 
 Burning is an open source backend drupal project for Buning man projects all
 around the world.
