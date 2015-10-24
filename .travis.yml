@@ -28,9 +28,6 @@ before_script:
   # Build the distrobution.
   - bash scripts/setup
   - bash scripts/build.sh
-  - pwd
-  - ls -al
-  - ls -al ../
   - cd /home/travis/build/midburn/burning/www
 
   # Install and migrate.
