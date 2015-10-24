@@ -82,4 +82,8 @@ dependencies[] = commerce_tax
 dependencies[] = commerce_tax_ui
 
 ; burning
+dependencies[] = burning_commerce
 dependencies[] = burning_core
+dependencies[] = burning_notify
+dependencies[] = burning_og
+dependencies[] = burning_restful

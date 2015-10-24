@@ -1,4 +1,4 @@
-Feature: Sanity check
+Feature: Sanity check.
 
   @api
   Scenario: Check front page
