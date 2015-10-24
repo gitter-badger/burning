@@ -19,7 +19,6 @@ before_install:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
   - composer global require drush/drush:6.*@dev
 
-
 before_script:
 
   # Create the database.
@@ -29,6 +28,9 @@ before_script:
   # Build the distrobution.
   - bash scripts/setup
   - bash scripts/build.sh
+  - pwd
+  - ls -al
+  - ls -al ../
   - cd /home/travis/build/burning/burning/www
 
   # Install and migrate.
