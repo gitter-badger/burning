@@ -1,10 +1,10 @@
 default:
   extensions:
     Behat\MinkExtension\Extension:
-      base_url: http://0.0.0.0:9000/#/
+      base_url: http://127.0.0.1:8888
     Drupal\DrupalExtension\Extension:
       drupal:
-        drupal_root: "/home/travis/build/burning/burning/www"
+        drupal_root: "/home/travis/build/midburn/burning/www"
       api_driver: "drupal"
       drush:
         alias: self

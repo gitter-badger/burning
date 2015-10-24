@@ -4,25 +4,12 @@ default:
       users:
         admin:
           'admin'
-        ClarkKent:
-          'LouisLane'
-        BruceWayne:
-          'IAmBatman'
-        TonyStark:
-          'ILovePepperPot'
-        PeterParker:
-          'MarryJaneWatson'
-        ScottSummers:
-          'JeanGrey'
-        NickFury:
-          'SamuelLJackson'
   paths:
     features: 'features'
   extensions:
     Behat\MinkExtension\Extension:
       goutte: ~
-      selenium2:
-        wd_host: "http://127.0.0.1:4444/"
+      selenium2: ~
     Drupal\DrupalExtension\Extension:
         blackbox: ~
 
