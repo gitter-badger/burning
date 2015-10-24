@@ -1,0 +1,5 @@
+name = Burning man core
+description = Main module for the burning project.
+package = burning
+core = 7.x
+version = 7.x-1.x
