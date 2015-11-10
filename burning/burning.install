@@ -98,4 +98,9 @@ function burning_install() {
   db_insert('users_roles')
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
+
+  // Installing Hebrew.
+  locale_add_language('he', 'Hebrew', 'עברית', LANGUAGE_RTL, '', '', TRUE, FALSE);
+  $negotation = array(LOCALE_LANGUAGE_NEGOTIATION_URL => 2);
+  language_negotiation_set('language', $negotation);
 }

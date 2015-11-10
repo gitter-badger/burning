@@ -127,6 +127,14 @@ function burning_variables_set() {
       'secret' => ''
     ),
     'recaptcha_secret' => '',
+    'entity_translation_settings_node__camp' => array(
+      'default_language' => LANGUAGE_NONE,
+      'hide_language_selector' => FALSE,
+      'exclude_language_none' => TRUE,
+      'lock_language' => FALSE,
+      'shared_fields_original_only' => FALSE,
+    ),
+    'language_content_type_camp' => ENTITY_TRANSLATION_ENABLED,
   );
 
   foreach ($variables as $name => $value) {

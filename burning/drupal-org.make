@@ -44,6 +44,9 @@ projects[entity_validator][download][url] = "https://github.com/Gizra/entity_val
 projects[entity_validator][download][branch] = "7.x-1.x"
 projects[entity_validator][download][revision] = "dc2615490d2bd7ea42fb6f16992ea8f6b5936d4d"
 
+projects[entity_translation][subdir] = "contrib"
+projects[entity_translation][version] = 1.0-beta4
+
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][version] = 1.5
 
@@ -112,6 +115,9 @@ projects[token][version] = 1.6
 projects[twitter][version] = "5.8"
 projects[twitter][subdir] = contrib
 
+projects[title][version] = "1.0-alpha7"
+projects[title][subdir] = contrib
+
 projects[search_api][version] = "1.16"
 projects[search_api][subdir] = contrib
 
@@ -120,6 +126,9 @@ projects[search_api_solr][subdir] = contrib
 
 projects[rules][version] = "2.9"
 projects[rules][subdir] = contrib
+
+projects[xautoload][version] = "5.5"
+projects[xautoload][subdir] = contrib
 
 ; Libraries.
 libraries[pusher][type] = "libraries"

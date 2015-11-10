@@ -1,0 +1,16 @@
+name = Burning camp
+core = 7.x
+package = Burning
+dependencies[] = features
+dependencies[] = list
+dependencies[] = og_ui
+dependencies[] = options
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = group_group
+features[field_base][] = title_field
+features[field_instance][] = node-camp-body
+features[field_instance][] = node-camp-group_group
+features[field_instance][] = node-camp-title_field
+features[node][] = camp

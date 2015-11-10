@@ -33,6 +33,7 @@ dependencies[] = devel
 dependencies[] = entitycache
 dependencies[] = entityreference
 dependencies[] = entity_validator
+dependencies[] = entity_translation
 dependencies[] = entity_token
 dependencies[] = email
 dependencies[] = facetapi
@@ -55,6 +56,7 @@ dependencies[] = search_api_facetapi
 dependencies[] = search_api_solr
 dependencies[] = token
 dependencies[] = geolocation_googlemaps
+dependencies[] = title
 dependencies[] = token
 dependencies[] = rules
 
@@ -82,6 +84,7 @@ dependencies[] = commerce_tax
 dependencies[] = commerce_tax_ui
 
 ; burning
+dependencies[] = burning_camp
 dependencies[] = burning_commerce
 dependencies[] = burning_core
 dependencies[] = burning_notify

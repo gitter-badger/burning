@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Burning camp feature.
+ */
+
+include_once 'burning_camp.features.inc';
