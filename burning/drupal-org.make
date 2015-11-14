@@ -41,8 +41,7 @@ projects[entityreference_prepopulate][version] = 1.5
 projects[entity_validator][subdir] = "contrib"
 projects[entity_validator][download][type] = git
 projects[entity_validator][download][url] = "https://github.com/Gizra/entity_validator.git"
-projects[entity_validator][download][branch] = "7.x-1.x"
-projects[entity_validator][download][revision] = "dc2615490d2bd7ea42fb6f16992ea8f6b5936d4d"
+projects[entity_validator][download][branch] = "7.x-2.x"
 
 projects[entity_translation][subdir] = "contrib"
 projects[entity_translation][version] = 1.0-beta4
@@ -95,8 +94,7 @@ projects[og][version] = 2.7
 projects[restful][subdir] = "contrib"
 projects[restful][download][type] = git
 projects[restful][download][url] = "https://github.com/RESTful-Drupal/restful.git"
-projects[restful][download][branch] = "7.x-1.x"
-projects[restful][download][revision] = "14a145e4423df8bc3975c18bb50c4aae6d82f7ca"
+projects[restful][download][branch] = "7.x-2.x"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = 2.0
