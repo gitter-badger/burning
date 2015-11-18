@@ -91,3 +91,4 @@ dependencies[] = burning_notify
 dependencies[] = burning_og
 dependencies[] = burning_restful
 dependencies[] = burning_user
+dependencies[] = burning_fields

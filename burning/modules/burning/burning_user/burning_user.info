@@ -1,7 +1,20 @@
 name = Burning man user
 description = User integration for burning man.
-package = burning
 core = 7.x
+package = burning
 version = 7.x-1.x
-
 dependencies[] = burning_core
+dependencies[] = burning_fields
+dependencies[] = entityreference
+dependencies[] = features
+dependencies[] = list
+dependencies[] = og
+dependencies[] = og_ui
+dependencies[] = options
+dependencies[] = text
+features[features_api][] = api:2
+features[field_instance][] = user-user-field_firat_name
+features[field_instance][] = user-user-field_last_name
+features[field_instance][] = user-user-field_phone
+features[field_instance][] = user-user-field_ticket_status
+features[field_instance][] = user-user-og_user_node
