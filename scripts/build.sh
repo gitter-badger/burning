@@ -97,7 +97,7 @@ CUR_DIR=$(pwd)
   php composer.phar install
 )
 
-# Download composer.
+# Download libraries.
 (
   cd $ROOT
   rm -rf burning/modules/burning/burning_core/composer

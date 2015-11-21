@@ -53,4 +53,4 @@ script:
 
 #after_script:
 #  - cat ~/grunt.log
-#  - cat ~/rs.log
+  - cat ~/rs.log
