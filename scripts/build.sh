@@ -95,6 +95,7 @@ CUR_DIR=$(pwd)
   cd burning/behat
   curl -s https://getcomposer.org/installer | php
   php composer.phar install
+  cd -
 )
 
 # Download composer.
@@ -103,4 +104,5 @@ CUR_DIR=$(pwd)
   rm -rf burning/modules/burning/burning_core/composer
   curl -s https://getcomposer.org/installer | php
   php composer.phar install
+  cd -
 )
