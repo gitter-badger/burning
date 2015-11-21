@@ -45,11 +45,11 @@ before_script:
   - cd profiles/burning/behat
   - cp behat.local.yml.travis behat.local.yml
   - composer install
-#  - bin/behat --init
+  - bin/behat --init
 
 script:
   # Run behat.
-#  - bin/behat --tags=~wip
+  - bin/behat --tags=~wip
 
 #after_script:
 #  - cat ~/grunt.log

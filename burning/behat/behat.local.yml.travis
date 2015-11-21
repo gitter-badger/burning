@@ -4,7 +4,7 @@ default:
       base_url: http://127.0.0.1:8888
     Drupal\DrupalExtension\Extension:
       drupal:
-        drupal_root: "/home/travis/build/midburn/burning/www"
+        drupal_root: "/home/travis/build/Midburn/burning/www"
       api_driver: "drupal"
       drush:
         alias: self
