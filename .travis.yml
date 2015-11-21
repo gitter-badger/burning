@@ -29,7 +29,7 @@ before_script:
   - pwd
   - bash scripts/setup
   - bash scripts/build.sh
-  - cd /home/travis/build/Midburn/burning
+  - cd /home/travis/build/Midburn/burning/www
 
   # Install and migrate.
   - drush si -y burning --account-name=admin --account-pass=admin --db-url=mysql://root:@127.0.0.1/drupal
