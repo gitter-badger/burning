@@ -26,7 +26,7 @@ drush si -y burning --account-name=$ADMIN_USERNAME --account-pass=$ADMIN_PASSWOR
 
 # These commands migrates dummy content and is used for development and testing.
 # Comment out both lines if you wish to have a clean OpenScholar installation.
-drush mi --all --user=1
+#drush mi --all --user=1
 
 drush cc all
 drush uli --uri=$BASE_DOMAIN_URL
