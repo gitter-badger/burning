@@ -26,6 +26,7 @@ before_script:
   - phpenv rehash
 
   # Build the distrobution.
+  - pwd
   - bash scripts/setup
   - bash scripts/build.sh
   - cd /home/travis/build/midburn/burning/www
