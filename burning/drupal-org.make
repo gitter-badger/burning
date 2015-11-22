@@ -50,8 +50,17 @@ projects[entity_translation][version] = 1.0-beta4
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][version] = 1.5
 
+projects[feeds][subdir] = "contrib"
+projects[feeds][version] = 2.0-beta1
+
+projects[feeds_jsonpath_parser][subdir] = "contrib"
+projects[feeds_jsonpath_parser][version] = 1.0
+
 projects[features][subdir] = "contrib"
 projects[features][version] = 2.7
+
+projects[job_scheduler][subdir] = "contrib"
+projects[job_scheduler][version] = 2.0-alpha3
 
 projects[gravatar][version] = "1.1"
 projects[gravatar][subdir] = contrib
