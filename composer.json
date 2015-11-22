@@ -1,0 +1,18 @@
+{
+  "name": "midburn/burning",
+  "description": "Midburn drupal backend",
+  "require": {
+    "guzzlehttp/guzzle": "~5.0",
+    "raveren/kint": "^1.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+        "name": "Roy Segall",
+        "email": "roy.segall@gizra.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "burning/modules/burning/burning_core/composer"
+  }
+}

@@ -4,3 +4,7 @@
  * @file
  * burning_core.module
  */
+
+if (file_exists(drupal_get_path('module', 'burning_core') . '/composer/autoload.php')) {
+  require_once 'composer/autoload.php';
+}

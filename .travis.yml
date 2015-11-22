@@ -2,14 +2,7 @@ language: php
 sudo: false
 
 php:
-  - 5.4
-
-addons:
-  apt:
-    packages:
-      - php5-cgi
-      - php5-mysql
-      - php5-curl
+  - 5.5
 
 mysql:
   database: drupal
@@ -28,7 +21,7 @@ before_script:
   # Build the distrobution.
   - bash scripts/setup
   - bash scripts/build.sh
-  - cd /home/travis/build/midburn/burning/www
+  - cd /home/travis/build/Midburn/burning/www
 
   # Install and migrate.
   - drush si -y burning --account-name=admin --account-pass=admin --db-url=mysql://root:@127.0.0.1/drupal
@@ -38,7 +31,7 @@ before_script:
   - drush vset burning_push_notifications TRUE
 
   # Fire up the server
-  - drush rs > ~/rs.log 2>&1 &
+  - php -S 127.0.0.1:8888 > ~/rs.log 2>&1 &
 
   # Behat setup.
   - cd profiles/burning/behat

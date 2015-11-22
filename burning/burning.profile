@@ -118,7 +118,7 @@ function burning_variables_set() {
     'page_manager_node_view_disabled' => FALSE,
     'page_manager_user_view_disabled' => FALSE,
     'page_manager_term_view_disabled' => FALSE,
-    'site_frontpage' => '',
+    'site_frontpage' => 'node',
     'entity_view_count_track_user' => array(),
     'user_picture_path' => '',
     'pusher' => array(

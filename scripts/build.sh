@@ -90,9 +90,18 @@ CUR_DIR=$(pwd)
   fi
 )
 
-# Download behat.
-#(
-#  cd burning/behat
-#  curl -s https://getcomposer.org/installer | php
-#  php composer.phar install
-#)
+#Download behat.
+(
+  cd burning/behat
+  curl -s https://getcomposer.org/installer | php
+  php composer.phar install
+)
+
+# Download libraries.
+(
+  cd $ROOT
+  rm -rf burning/modules/burning/burning_core/composer
+  curl -s https://getcomposer.org/installer | php
+  php composer.phar install
+  cd $ROOT
+)
