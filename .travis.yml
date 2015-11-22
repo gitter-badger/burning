@@ -4,12 +4,12 @@ sudo: true
 php:
   - 5.5
 
-addons:
-  apt:
-    packages:
-      - php5-cgi
-      - php5-mysql
-      - php5-curl
+#addons:
+#  apt:
+#    packages:
+#      - php5-cgi
+#      - php5-mysql
+#      - php5-curl
 
 mysql:
   database: drupal
@@ -39,7 +39,7 @@ before_script:
   - drush vset burning_push_notifications TRUE
 
   # Fire up the server
-  - drush rs > ~/rs.log 2>&1 &
+  - php -S 127.0.0.1:8888 > ~/rs.log 2>&1 &
 
   # Behat setup.
   - cd profiles/burning/behat
