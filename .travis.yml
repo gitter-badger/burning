@@ -4,13 +4,6 @@ sudo: true
 php:
   - 5.5
 
-#addons:
-#  apt:
-#    packages:
-#      - php5-cgi
-#      - php5-mysql
-#      - php5-curl
-
 mysql:
   database: drupal
   username: root
@@ -53,4 +46,4 @@ script:
 
 #after_script:
 #  - cat ~/grunt.log
-  - cat ~/rs.log
+#  - cat ~/rs.log
