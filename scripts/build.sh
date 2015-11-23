@@ -110,8 +110,8 @@ CUR_DIR=$(pwd)
 (
   cd $ROOT
   cd burning/libraries
-  mkdir jsonpath
-  cd jsonpath
-  wget http://jsonpath.googlecode.com/svn/trunk/src/php/jsonpath.php
-  cd $ROOT
+#  mkdir jsonpath
+#  cd jsonpath
+#  wget http://jsonpath.googlecode.com/svn/trunk/src/php/jsonpath.php
+#  cd $ROOT
 )
