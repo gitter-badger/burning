@@ -29,8 +29,14 @@ function burning_camp_feeds_importer_default() {
       ),
     ),
     'parser' => array(
-      'plugin_key' => 'FeedsSyndicationParser',
-      'config' => array(),
+      'plugin_key' => 'FeedsJSONPathParser',
+      'config' => array(
+        'context' => '',
+        'sources' => array(),
+        'debug' => array(),
+        'allow_override' => FALSE,
+        'convert_four_byte' => FALSE,
+      ),
     ),
     'processor' => array(
       'plugin_key' => 'FeedsNodeProcessor',

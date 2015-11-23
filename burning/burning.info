@@ -39,7 +39,6 @@ dependencies[] = email
 dependencies[] = facetapi
 dependencies[] = feeds
 dependencies[] = feeds_ui
-dependencies[] = feeds_jsonpath_parser
 dependencies[] = features
 dependencies[] = job_scheduler
 dependencies[] = libraries

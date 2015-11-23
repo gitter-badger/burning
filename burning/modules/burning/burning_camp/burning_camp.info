@@ -5,6 +5,7 @@ dependencies[] = burning_fields
 dependencies[] = ctools
 dependencies[] = features
 dependencies[] = feeds
+dependencies[] = feeds_jsonpath_parser
 dependencies[] = list
 dependencies[] = og_ui
 dependencies[] = options

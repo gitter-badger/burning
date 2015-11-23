@@ -105,3 +105,13 @@ CUR_DIR=$(pwd)
   php composer.phar install
   cd $ROOT
 )
+
+#Download jsonpath
+(
+  cd $ROOT
+  cd burning/libraries
+  mkdir jsonpath
+  cd jsonpath
+  wget http://jsonpath.googlecode.com/svn/trunk/src/php/jsonpath.php
+  cd $ROOT
+)
