@@ -147,3 +147,7 @@ libraries[pusher][download][url] = "https://github.com/pusher/pusher-http-php.gi
 libraries[reCaptcha][type] = "libraries"
 libraries[reCaptcha][download][type] = git
 libraries[reCaptcha][download][url] = "https://github.com/google/recaptcha.git"
+
+libraries[jsonpath][type] = "libraries"
+libraries[jsonpath][download][type] = file
+libraries[jsonpath][download][url] = "http://jsonpath.googlecode.com/svn/trunk/src/php/jsonpath.php"
