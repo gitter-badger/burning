@@ -135,6 +135,7 @@ function burning_variables_set() {
       'shared_fields_original_only' => FALSE,
     ),
     'language_content_type_camp' => ENTITY_TRANSLATION_ENABLED,
+//    'feeds_jsonpath_library_dir' => DRUPAL_ROOT . '/profiles/burning/libraries/jsonpath',
   );
 
   foreach ($variables as $name => $value) {
